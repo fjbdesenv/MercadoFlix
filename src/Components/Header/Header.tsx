@@ -5,7 +5,7 @@ import "./Header.css";
 function Header (){
     return (
         <header>
-            header
+            <div id='logo'>MercadoFlix</div>
         </header>
     );
 }

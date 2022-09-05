@@ -2,7 +2,11 @@
   "name": "mercadoflix",
   "version": "0.1.0",
   "private": true,
-  "author": {"name": "Fábio Júnior Barbosa", "email": "fjb.desenv@gmail.com"},
+  "author": {
+    "name": "Fábio Júnior Barbosa",
+    "email": "fjb.desenv@gmail.com"
+  },
+  "homepage": "https://fjbdesenv.github.io/MercadoFlix",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -11,6 +15,7 @@
     "@types/node": "^16.11.57",
     "@types/react": "^18.0.18",
     "@types/react-dom": "^18.0.6",
+    "gh-pages": "^4.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
@@ -19,7 +24,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && cp build/index.html build/404.html",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

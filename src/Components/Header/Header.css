@@ -13,12 +13,18 @@ header{
 header #logo{
     color: red;
 
-    margin: 0 1rem;
+    margin-left: 1rem;
+    margin-right: 2rem;
 
     font-size: 2.5rem;
     font-weight: bold;
 
     transition: ease-in-out 0.2s font-size;
+}
+
+header #menu ul{
+    list-style: none;
+    display: inline-block;
 }
 
 @media screen and (max-width: 650px) {

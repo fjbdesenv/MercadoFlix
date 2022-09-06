@@ -1,0 +1,23 @@
+#PageFound p{
+    font-size: 3rem;
+
+    text-align: center;
+
+    color: red;
+
+    animation: animation 10s infinite;
+
+    transition: ease-in-out 0.3s font-size;
+}
+
+@keyframes animation{
+    50% {
+        color: white;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    #PageFound p{
+        font-size: 1.5rem;
+    }
+}

@@ -4,9 +4,10 @@ import "./PageFound.css";
 
 function PageFound() {
     return (
-        <>
-            PageFound
-        </>
+        <div id='PageFound'>
+            <p> Page Found</p>
+            <p> Error 404 </p>
+        </div>
     );
 }
 

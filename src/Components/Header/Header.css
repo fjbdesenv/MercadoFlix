@@ -19,6 +19,8 @@ header #logo{
     font-size: 2.5rem;
     font-weight: bold;
 
+    filter: drop-shadow(2px 2px 2px red);
+
     transition: ease-in-out 0.2s font-size;
 }
 

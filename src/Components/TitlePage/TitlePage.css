@@ -1,0 +1,13 @@
+#title-page {
+    text-align: center;
+
+    font-size: 3rem;
+
+    transition: ease-in-out 0.3s font-size;
+}
+
+@media screen and (max-width: 520px) {
+    #title-page {
+        font-size: 1.5rem;
+    }
+}

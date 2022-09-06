@@ -1,0 +1,10 @@
+.container-content{
+    display: flex;
+
+    align-items: center;
+    justify-items: center;
+
+    flex-flow: row wrap;
+
+    width: 100%;
+}

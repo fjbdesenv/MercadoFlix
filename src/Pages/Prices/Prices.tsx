@@ -5,7 +5,7 @@ import "./Prices.css";
 function Prices() {
     return (
         <>
-            Prices
+                    
         </>
     );
 }

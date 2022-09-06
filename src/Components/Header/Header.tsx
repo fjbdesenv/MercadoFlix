@@ -12,7 +12,7 @@ function Header() {
 
                 <MenuItem name='Home' link='home'/>
                 <MenuItem name='Agenda' link='agenda'/>
-                <MenuItem name='EconomicsSites' link='economicssites'/>
+                <MenuItem name='Sites Economicos' link='economicssites'/>
                 <MenuItem name='Cotaçoes' link='cotacoes'/>
             </nav>
         </header>

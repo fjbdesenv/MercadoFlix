@@ -1,12 +1,19 @@
 import React from 'react';
 
+import {Link} from 'react-router-dom';
+
 import './MenuItem.css';
 
-function MenuItem ({name = 'Nome', link=''}) {
+interface paramets{
+    name: string
+    link: string
+}
+
+function MenuItem({name, link}: paramets)  {
     return( 
-        <a className='menu-item' href={link}>
+        <Link className='menu-item' to={'/' + link}>
             {name}
-        </a>
+        </Link>
     );
 }
 

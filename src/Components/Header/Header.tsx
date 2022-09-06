@@ -1,5 +1,6 @@
 import React from 'react';
 import {MenuItem} from '../components';
+import {Link} from 'react-router-dom';
 
 import "./Header.css";
 
@@ -7,12 +8,12 @@ function Header() {
     return (
         <header>
             <nav id='menu'>
-                <div id='logo'>MercadoFlix</div>
+                <Link id='logo' to='home' >MercadoFlix</Link>
 
-                <MenuItem name='Home' link='#'/>
-                <MenuItem name='Agenda' link='#'/>
-                <MenuItem name='Sites Económicos' link='#'/>
-                <MenuItem name='Cotaçoes' link='#'/>
+                <MenuItem name='Home' link='home'/>
+                <MenuItem name='Agenda' link='agenda'/>
+                <MenuItem name='EconomicsSites' link='economicssites'/>
+                <MenuItem name='Cotaçoes' link='cotacoes'/>
             </nav>
         </header>
     );

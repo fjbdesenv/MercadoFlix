@@ -22,13 +22,21 @@ header #logo{
     transition: ease-in-out 0.2s font-size;
 }
 
-header #menu ul{
+header #menu{
     list-style: none;
-    display: inline-block;
+    
+    display: flex;
+    flex-direction: row;
 }
 
 @media screen and (max-width: 650px) {
     header #logo{
         font-size: 1.5rem;
+    }    
+}
+
+@media screen and (max-width: 520px) {
+    header #menu{
+        flex-direction: column;
     }    
 }

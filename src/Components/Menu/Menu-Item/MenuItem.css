@@ -1,11 +1,32 @@
-li>a{
+.menu-item{
     color: #fff;
 
     font-size: 1.2rem;
 
     text-decoration: none;
+
+    margin: 1rem;
+    
+    transition: ease-in-out 0.3s font-size,  ease-in-out 0.3s margin;
 }
 
-li>a:hover{
+.menu-item:hover{
     color: #bbb;
+}
+
+@media screen and (max-width: 750px){
+    .menu-item{
+        font-size: 0.8rem;
+        margin: 1rem;
+    }
+}
+
+@media screen and (max-width: 520px){
+    .menu-item{
+        margin: 1rem;
+    }
+    .menu-item:hover{
+        color:  #f88;
+        transition: ease-in-out 0.3s color;
+    }
 }

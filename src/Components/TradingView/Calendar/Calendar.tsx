@@ -1,4 +1,3 @@
-import React from 'react';
 import {EconomicCalendar, ColorTheme} from 'react-ts-tradingview-widgets';
 
 import "./Calendar.css"
@@ -7,12 +6,12 @@ interface params{
     colorTeheme:ColorTheme
 }
 
-function Calendar ({colorTeheme='dark'}:params){
+export default function Calendar ({colorTeheme='dark'}:params):JSX.Element{
 
     /* Disponivel em https://www.tradingview.com/widget/symbol-overview/ */
 
     return(
-        <div className='containe-calendar'>
+        <div className='container-calendar'>
             <EconomicCalendar
                 colorTheme={colorTeheme}
                 autosize={true}
@@ -23,5 +22,3 @@ function Calendar ({colorTeheme='dark'}:params){
         
     );
 }
-
-export default Calendar;

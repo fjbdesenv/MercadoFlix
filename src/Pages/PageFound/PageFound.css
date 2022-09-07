@@ -1,4 +1,4 @@
-#PageFound p{
+#page-found p{
     font-size: 3rem;
 
     text-align: center;
@@ -17,7 +17,7 @@
 }
 
 @media screen and (max-width: 520px) {
-    #PageFound p{
+    #page-found p{
         font-size: 1.5rem;
     }
 }

@@ -1,10 +1,9 @@
-import React from 'react';
 import {MenuItem} from '../components';
 import {Link} from 'react-router-dom';
 
 import "./Header.css";
 
-function Header() {
+export default function Header():JSX.Element {
     return (
         <header>
             <nav id='menu'>
@@ -18,5 +17,3 @@ function Header() {
         </header>
     );
 }
-
-export default Header;

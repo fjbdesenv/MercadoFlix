@@ -1,5 +1,3 @@
-import React from "react";
-
 import "./CardImg.css";
 
 interface params{
@@ -8,15 +6,13 @@ interface params{
     name:string
 }
 
-function CardImg({imgURL, link, name}:params) {
+export default function CardImg({imgURL, link, name}:params):JSX.Element {
     return (
         <div className="card-img">
-            <a href={link} target='_blank'>
-                <img src={imgURL} />
+            <a href={link} target='_blank' rel="noreferrer">
+                <img src={imgURL} alt={'Imagem do site' + {name}}  />
                 <div className="card-name">{name}</div>
             </a>
         </div>
     );
 }
-
-export default CardImg;

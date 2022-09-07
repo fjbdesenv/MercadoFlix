@@ -1,11 +1,10 @@
-import React from 'react';
 import { Graph } from '../../Components/components';
 
 import "./Home.css";
 
-function Home() {
+export default function Home():JSX.Element {
     return (
-        <div className='container-content'>
+        <section id='page-home'>
             <Graph  symbol='IBOV' colorTeheme='dark' dateRange='1D'/>
             <Graph  symbol='ARS' colorTeheme='dark' dateRange='1D'/>
             <Graph  symbol='EUR' colorTeheme='dark' dateRange='1D'/>
@@ -14,8 +13,6 @@ function Home() {
             <Graph  symbol='AUD' colorTeheme='dark' dateRange='1D'/>
             <Graph  symbol='USD' colorTeheme='dark' dateRange='1D'/>
             <Graph  symbol='GBP' colorTeheme='dark' dateRange='1D'/>            
-        </div>
+        </section>
     );
 }
-
-export default Home;

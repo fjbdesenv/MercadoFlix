@@ -1,5 +1,3 @@
-import React from 'react';
-
 import {Link} from 'react-router-dom';
 
 import './MenuItem.css';
@@ -9,12 +7,10 @@ interface paramets{
     link: string
 }
 
-function MenuItem({name, link}: paramets)  {
+export default function MenuItem({name, link}: paramets):JSX.Element  {
     return( 
         <Link className='menu-item' to={'/' + link}>
             {name}
         </Link>
     );
 }
-
-export default MenuItem;

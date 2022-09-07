@@ -1,13 +1,12 @@
-import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { EconomicsSites, Home, PageFound, Prices, TimeLine } from '../../Pages';
 import {Header, Footer} from '../components';
 
 import "./App.css";
 
-function App() {
+export default function App():JSX.Element {
   return (
-    <div className="App">
+    <div id="App">
       <BrowserRouter>
           <Header />
           
@@ -25,5 +24,3 @@ function App() {
     </div>
   );
 }
-
-export default App;

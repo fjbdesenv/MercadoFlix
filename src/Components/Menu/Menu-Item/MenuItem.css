@@ -22,11 +22,14 @@
 }
 
 @media screen and (max-width: 520px){
+    
     .menu-item{
         margin: 1rem;
     }
+
     .menu-item:hover{
         color:  #f88;
         transition: ease-in-out 0.3s color;
     }
+    
 }

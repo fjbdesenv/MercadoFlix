@@ -1,14 +1,10 @@
-import React from 'react';
-
 import "./PageFound.css";
 
-function PageFound() {
+export default function PageFound():JSX.Element {
     return (
-        <div id='PageFound'>
+        <section id='page-found'>
             <p> Page Found</p>
             <p> Error 404 </p>
-        </div>
+        </section>
     );
 }
-
-export default PageFound;

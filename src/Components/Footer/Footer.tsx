@@ -1,7 +1,6 @@
-import React from 'react';
 import "./Footer.css";
 
-function Footer() {
+export default function Footer():JSX.Element {
     return (
         <footer>
             <p>
@@ -13,5 +12,3 @@ function Footer() {
         </footer>
     );
 }
-
-export default Footer;

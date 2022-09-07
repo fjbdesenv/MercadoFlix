@@ -1,13 +1,9 @@
-import React from 'react';
-
 import "./Prices.css";
 
-function Prices() {
+export default function Prices():JSX.Element {
     return (
-        <>
+        <section>
                     
-        </>
+        </section>
     );
 }
-
-export default Prices;

@@ -1,17 +1,13 @@
-import React from 'react';
-
 import './TitlePage.css';
 
 interface params{
     title:string
 }
 
-function TitlePage ({title}:params) {
+export default function TitlePage ({title}:params):JSX.Element {
     return(
-        <div id='title-page' >
+        <div id='page-title' >
             {title}
         </div>
     );
 }
-
-export default TitlePage;

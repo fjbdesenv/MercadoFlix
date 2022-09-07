@@ -8,12 +8,12 @@ function Header() {
     return (
         <header>
             <nav id='menu'>
-                <Link id='logo' to='home' >MercadoFlix</Link>
+                <Link id='logo' to='MercadoFlix/home' >MercadoFlix</Link>
 
-                <MenuItem name='Home' link='home'/>
-                <MenuItem name='Agenda' link='agenda'/>
-                <MenuItem name='Sites Economicos' link='economicssites'/>
-                <MenuItem name='Cotaçoes' link='cotacoes'/>
+                <MenuItem name='Home' link='MercadoFlix/home'/>
+                <MenuItem name='Agenda' link='MercadoFlix/agenda'/>
+                <MenuItem name='Sites Economicos' link='MercadoFlix/economicssites'/>
+                <MenuItem name='Cotaçoes' link='MercadoFlix/cotacoes'/>
             </nav>
         </header>
     );

@@ -1,6 +1,5 @@
 import React from 'react';
 import { Graph } from '../../Components/components';
-import TitlePage from '../../Components/TitlePage/TitlePage';
 
 import "./Home.css";
 

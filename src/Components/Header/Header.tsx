@@ -10,7 +10,7 @@ export default function Header():JSX.Element {
                 <Link id='logo' to='MercadoFlix/home' >MercadoFlix</Link>
 
                 <MenuItem name='Home' link='MercadoFlix/home'/>
-                <MenuItem name='Agenda' link='MercadoFlix/agenda'/>
+                <MenuItem name='Calendário' link='MercadoFlix/calendario'/>
                 <MenuItem name='Sites Economicos' link='MercadoFlix/economicssites'/>
                 <MenuItem name='Cotaçoes' link='MercadoFlix/cotacoes'/>
             </nav>

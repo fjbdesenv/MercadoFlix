@@ -13,7 +13,7 @@ export default function App():JSX.Element {
           <Routes>
             <Route path='MercadoFlix/'  element={<Home/>}/>
             <Route path='MercadoFlix/home' element={<Home/>}/>
-            <Route path='MercadoFlix/agenda' element={<TimeLine/>}/>
+            <Route path='MercadoFlix/calendario' element={<TimeLine/>}/>
             <Route path='MercadoFlix/cotacoes' element={<Prices/>}/>
             <Route path='MercadoFlix/economicssites' element={<EconomicsSites/>}/>
             <Route path='*' element={<PageFound/>}/>

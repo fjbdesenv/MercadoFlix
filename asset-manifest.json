@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/MercadoFlix/static/css/main.c2148c04.css",
-    "main.js": "/MercadoFlix/static/js/main.7dade1b4.js",
+    "main.css": "/MercadoFlix/static/css/main.ed12c3a6.css",
+    "main.js": "/MercadoFlix/static/js/main.da154ba5.js",
     "static/js/787.0f7e5456.chunk.js": "/MercadoFlix/static/js/787.0f7e5456.chunk.js",
     "index.html": "/MercadoFlix/index.html",
-    "main.c2148c04.css.map": "/MercadoFlix/static/css/main.c2148c04.css.map",
-    "main.7dade1b4.js.map": "/MercadoFlix/static/js/main.7dade1b4.js.map",
+    "main.ed12c3a6.css.map": "/MercadoFlix/static/css/main.ed12c3a6.css.map",
+    "main.da154ba5.js.map": "/MercadoFlix/static/js/main.da154ba5.js.map",
     "787.0f7e5456.chunk.js.map": "/MercadoFlix/static/js/787.0f7e5456.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c2148c04.css",
-    "static/js/main.7dade1b4.js"
+    "static/css/main.ed12c3a6.css",
+    "static/js/main.da154ba5.js"
   ]
 }

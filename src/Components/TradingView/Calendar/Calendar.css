@@ -1,0 +1,8 @@
+.containe-calendar{
+    width: 90%;
+    height: 600px;
+}
+
+.containe-calendar #tradingview_widget_wrapper div:nth-child(1){
+    height: 500px;
+}

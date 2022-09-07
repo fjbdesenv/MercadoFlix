@@ -1,0 +1,28 @@
+.card-img{
+    /* background-color: #fff; */
+
+    border-radius: 10px;
+
+    padding: 5px;
+    margin: 5px;
+
+    border: 2px solid white;
+    box-shadow: 1px  1px  1px  1px #777;
+
+}
+
+.card-img img{
+    width: 150px;
+    height: 150px;
+
+    border-radius: 20px;
+}
+
+.card-img a{
+    text-decoration: none;
+    color: white;
+}
+
+.card-name{
+    text-align: center;
+}

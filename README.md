@@ -5,7 +5,7 @@
 ## 🔨 Funcionalidades do projeto
 - `Exibir gráficos`: Exibe gráfico de alguns ativos.
 - `Exibir canlendário`: Exibe o canlendário económico, do varios países com os principais eventos económicos.
-- `Exibir cotaç]oes`: Exibe as cotaçoes de preços, atualizada com até 15 de atraso.
+- `Exibir cotações`: Exibe as cotações de preços, atualizada com até 15 de atraso.
 - `Link sites`: Possui alguns links para acesso a alguns sites sobre economia.
 
 ## 📁 Acesso ao projeto

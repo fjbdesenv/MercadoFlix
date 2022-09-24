@@ -14,7 +14,7 @@ O projeto pode ser acessado em https://fjbdesenv.github.io/MercadoFlix.
 ## 🛠️ Abrir e rodar o projeto
 [![mercado-Flix.png](https://i.postimg.cc/wBw4wgyj/mercado-Flix.png)](https://postimg.cc/xkbPCr3w)
 
-### 🔧 Executar na sua maquina:
+### 🔧 Executar na sua máquina:
 Execute os seguites comandos, necessario instalar `git` e `node.js`:
 1. `git clone https://github.com/fjbdesenv/MercadoFlix.git`
 2. `cd MercadoFlix`
